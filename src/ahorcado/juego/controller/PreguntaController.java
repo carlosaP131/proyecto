@@ -2,18 +2,18 @@ package ahorcado.juego.controller;
 
 import java.util.List;
 
-import ahorcado.juego.model.Preguntas_Model;
-import ahorcado.juego.pojo.Preguntas;
+import ahorcado.juego.model.Palabras_Model;
+import ahorcado.juego.pojo.Palabra;
 
 public class PreguntaController {
-	private Preguntas_Model model = new Preguntas_Model();
-	public List<Preguntas> crearPreguntas(List<Preguntas> preg, Preguntas pregunta) {
-		return model.crearPreguntas(preg, pregunta);
+	private Palabras_Model model = new Palabras_Model();
+	public List<Palabra> crearPalabra(List<Palabra> preg, Palabra pregunta) {
+		return model.crearPalabra(preg, pregunta);
 	}
-	public List<Preguntas> eliminarJugador(List<Preguntas> preg,long num_preg){
-		return model.eliminarPreguntas(preg, num_preg);
+	public List<Palabra> eliminarPalabra(List<Palabra> pala,long num_palab){
+		return model.eliminarPalabra(pala, num_palab);
 	}
-	public void mostrarJugador(List<Preguntas> preg) {
-		model.mostrarPreguntas(preg);
+	public void mostrarPalabra(List<Palabra> pala) {
+		model.mostrarPalabra(pala);
 		}
 }
