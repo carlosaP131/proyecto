@@ -47,8 +47,17 @@ public class Principal {
 	 }else {
 		 jugador1.setVida(4);
 		 System.out.println("Error se te resta una vida \n vidas restantes "+jugador1.getVida());
-		 
+		 System.out.println("   ( ) ");
+		 System.out.println("    *  ");
+		 System.out.println(" *  *  *");
+		 System.out.println("*   *   *");
+		 System.out.println("  *   *");
+		 System.out.println(" *     *");
+		 System.out.println("*       *");
 	 }
+	 
+	 
+	 
 	controller.crearJugador(lista, jugador1);
 	controller.crearJugador(lista, jugador2);
 	controller.mostrarJugador(lista);
