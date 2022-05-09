@@ -1,3 +1,10 @@
+/****************************************************************************************************
+ *Autor:Carlos Aurelio Alcántara Pérez 
+ *Fecha de creación: 07-04-2022 ***
+ *Fecha de actualización:07-04-2022
+ *Descripción: clase principal  
+ **                                                                                                 
+ * *************************************************************************************************/
 package ahorcado.juego.view;
 
 import java.util.Scanner;
@@ -6,7 +13,7 @@ import java.util.Random;
 
 public class Ahorcado {
 
-	private static Prueva_monito monito = new Prueva_monito();
+	private static Monito monito = new Monito();
 	private static Scanner teclado = new Scanner(System.in);
 
 	public static void main(String[] args) {

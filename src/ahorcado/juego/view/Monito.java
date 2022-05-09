@@ -1,6 +1,19 @@
+/****************************************************************************************************
+ *Autor:Carlos Aurelio Alcántara Pérez 
+ *Fecha de creación: 07-04-2022 ***
+ *Fecha de actualización:07-04-2022
+ *Descripción: clase para mostrar el monito  
+ **                                                                                                 
+ * *************************************************************************************************/
+
+
 package ahorcado.juego.view;
 import java.util.Scanner;
-public class Prueva_monito {
+import ahorcado.juego.pojo.Monito_pojo;
+public class Monito {
+		Monito_pojo monito = new Monito_pojo();
+	
+	/*
 	static String Arraycabeza[][] = {{"      ==========|| "},
 									 {"    ......      ||"},
 									 {" ^//      \\\\^   ||"}, 
@@ -54,7 +67,7 @@ public class Prueva_monito {
 									           {"    //    \\\\    ||"},
 									           {"   //      \\\\   ||"},
 									           {"  //        \\\\  ||"},
-									           {" 		__\n"},};
+									           {" 		__\n"},};*/
 												
 	static Scanner sn = new Scanner(System.in);
 		/*public static void main(String[] args) {
@@ -104,7 +117,7 @@ public class Prueva_monito {
 		for (int i = 0; i < 7; i++) {
 			System.out.println("");
 			for (int j = 0; j < 1; j++) {
-				System.out.print(Arraycabeza[i][j]);
+				System.out.print(monito.Arraycabeza[i][j]);
 			}
 		}
 	}
@@ -112,7 +125,7 @@ public class Prueva_monito {
 		for (int k = 0; k < 8; k++) {
 			System.out.println("");
 			for (int l = 0; l < 1; l++) {
-				System.out.print(Arraycuerpo[k][l]);
+				System.out.print(monito.Arraycuerpo[k][l]);
 
 			}
 		}
@@ -121,7 +134,7 @@ public class Prueva_monito {
 		for (int k = 0; k < 8; k++) {
 			System.out.println("");
 			for (int l = 0; l < 1; l++) {
-				System.out.print(ArrayCuerpoBrazD[k][l]);
+				System.out.print(monito.ArrayCuerpoBrazD[k][l]);
 			}
 		}
 	
@@ -130,7 +143,7 @@ public class Prueva_monito {
 		for (int k = 0; k < 8; k++) {
 			System.out.println("");
 			for (int l = 0; l < 1; l++) {
-				System.out.print(ArrayCuerpoBrazDEI[k][l]);
+				System.out.print(monito.ArrayCuerpoBrazDEI[k][l]);
 			}
 		}
 	}
@@ -138,7 +151,7 @@ public class Prueva_monito {
 		for (int k = 0; k < 11; k++) {
 			System.out.println("");
 			for (int l = 0; l < 1; l++) {
-				System.out.print(ArrayCuerpoBrazosPi[k][l]);
+				System.out.print(monito.ArrayCuerpoBrazosPi[k][l]);
 			}
 		}
 	}
@@ -146,7 +159,7 @@ public class Prueva_monito {
 		for (int k = 0; k < 12; k++) {
 			System.out.println("");
 			for (int l = 0; l < 1; l++) {
-				System.out.print(ArrayCuerpoBrazosPies[k][l]);
+				System.out.print(monito.ArrayCuerpoBrazosPies[k][l]);
 			}
 		}
 	}

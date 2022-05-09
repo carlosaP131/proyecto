@@ -8,7 +8,7 @@ public class Palabra {
 	
 		private String tipo;
 		private String palabra;
-		private long   num_palab;
+		
 		private String respuesta;
 		 //contructir el motodo constructoe tiene siempre el mismo nombre que la clase 
 		//se utiliza normalmente para inicializar los atributos 
@@ -46,13 +46,5 @@ public class Palabra {
 		public void setRespuesta(String respuesta) {
 			this.respuesta = respuesta;
 		}
-		public long getNum_palab() {
-			return num_palab;
-		}
-
-		public void setNum_palab(long num_palab) {
-			this.num_palab = num_palab;
-		}
-
 		
 }

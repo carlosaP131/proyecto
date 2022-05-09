@@ -17,7 +17,7 @@ public class Palabras_Model {
 	}
 	public void mostrarPalabra(List<Palabra> pala) {
 		for(Palabra palabras :pala) {
-			System.out.println("numero pregunta: "+ palabras.getNum_palab());
+			
 			System.out.println(palabras.getPalabra());
 			System.out.println("pregunta del tipo"+palabras.getTipo());
 			

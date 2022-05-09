@@ -38,7 +38,7 @@ public class Principal {
 	
 
 	jugador2.setVida(5);
-	pregu.setNum_palab(1);
+	
 	pregu.setPalabra("¿quien descubrio america?\n");
 	System.out.println(pregu.getPalabra());
 	pregu.setRespuesta(scanner.nextLine());
